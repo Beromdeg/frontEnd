@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Space Image Galleri</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type = "text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!-- fontawesome -->
+	<link rel="stylesheet" href="galleristyl.css" type = "text/css"> <!-- our styles must occur after BS s.t we can overide it -->
+</head>
+<body>
+	<!-- navbar -->
+	<nav class = "navbar navbar-inverse navbar-fixed-top"> <!-- to make navbar fix at top whilescrolling -->
+		<!-- add container so that the contents of the navbar arenot to the edges, here container is inside our navbar -->
+		<div class = "container"> 
+			<div class = "navbar-header">
+				<!-- lets make the hamburger when we hit the mobile size -->
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-mynav-demo" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a href="#" class = "navbar-brand"><i class="fa fa-file-image-o" aria-hidden="true"></i> IMG</a>
+			</div>
+			<!-- adding some contents to our navbar -->
+			<div class="collapse navbar-collapse" id="bs-mynav-demo">
+				<ul class = "nav navbar-nav">
+					<li><a href="#">OM</a></li>
+					<li><a href="#">KONTAKT</a></li>
+				</ul>
+				<!-- adding content to the right side of our navbar, can use div or ul -->
+				<ul class = "nav navbar-nav navbar-right">
+					<li><a href="#">SIGN OPP</a></li>
+					<li><a href="#">LOGINN</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- jumbotron -->
+	<div class = "container">
+		<div class = "jumbotron">
+			<h1><i class="fa fa-camera-retro" aria-hidden="true"></i> Demo Space Smage Galleri</h1>
+			<p>A bunch of pet images taken from unsplash</p>
+		</div>	
+		<!-- setting up image grid inside the container of jumbotron-->
+		<div class = "row">
+			<div class = "col-lg-4 col-sm-6">
+				<!-- whatever inside this thumbnail div will be scaled and have littel boarder around it -->
+				<div class = "thumbnail">
+					<img src="https://images.unsplash.com/photo-1450778869180-41d0601e046e" alt="Image-1">
+				</div>
+			</div>
+			<div class = "col-lg-4 col-sm-6">
+				<div class = "thumbnail">
+					<img src="https://images.unsplash.com/photo-1446730853965-62433e868929" alt="Image-2">
+				</div>
+			</div>
+			<div class = "col-lg-4 col-sm-6">
+				<div class = "thumbnail">
+					<img src="https://images.unsplash.com/photo-1453365607868-7deed8cc7d26" alt="Image-3">
+				</div>
+			</div>
+			<div class = "col-lg-4 col-sm-6">
+				<div class = "thumbnail">
+					<img src="https://images.unsplash.com/photo-1479065476818-424362c3a854" alt="Image-4">
+				</div>
+			</div>
+			<div class = "col-lg-4 col-sm-6">
+				<div class = "thumbnail">
+					<img src="https://images.unsplash.com/photo-1498579687545-d5a4fffb0a9e" alt="Image-5">
+				</div>
+			</div>
+			
+			<div class = "col-lg-4 col-sm-6">
+				<div class = "thumbnail">
+					<img src="https://images.unsplash.com/photo-1501820488136-72669149e0d4" alt="Image-6">
+				</div>
+			</div>
+			<div class = "col-lg-4 col-sm-6">
+				<div class = "thumbnail">
+					<img src="https://images.unsplash.com/photo-1494256997604-768d1f608cac" alt="Image-7">
+				</div>
+			</div>
+			<div class = "col-lg-4 col-sm-6">
+				<div class = "thumbnail">
+					<img src="https://images.unsplash.com/photo-1488015795646-7e22a773d72a" alt="Image-8">
+				</div>
+			</div>
+			<div class = "col-lg-4 col-sm-6">
+				<div class = "thumbnail">
+					<img src="https://images.unsplash.com/photo-1486530555807-11f29d0dff36" alt="Image-9">
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>		
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>	
+</body>	
+</html>
